@@ -1,0 +1,64 @@
+*,html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    top: 50px;
+}
+h1{
+    margin-bottom: 70px;
+}
+p{
+    padding: 5px;
+    background-color: gray;
+    width: 400px;
+    position: relative;
+    margin: 30px auto;
+}
+
+#popup1{
+    text-align: center;
+    width: 600px;
+    height: 150px;
+    background-color: #e86c6c;
+    position: absolute;
+    z-index: 100;
+    top: 40%;
+    left: 31%;
+    border-radius: 20px;
+    display: none;
+    border: 2px solid black;
+    font-size: 2em;
+    line-height: 150px;
+}
+#popup2{
+    text-align: justify;
+    width: 600px;
+    height: 430px;
+    background-color: #e86c6c;
+    position: absolute;
+    z-index: 100;
+    top: 40%;
+    left: 31%;
+    padding: 55px;
+    border-radius: 20px;
+    display: none;
+    border: 2px solid black;
+}
+.black{
+    background-color: black;
+}
+
+img{
+/*    float: left;*/
+    width: 50px;
+    height: auto;
+    position: absolute;
+    top: -7.5px;
+    left: -4.5px;
+}
